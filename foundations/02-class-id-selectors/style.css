@@ -1,0 +1,15 @@
+.odd{
+    background-color: red;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+#no2{
+    background-color: lightblue;
+    font-size: 36px;
+}
+.adjust-font-size{
+    font-size: 24px;
+}
+#no4{
+    background-color: lightgreen;
+    font-weight: bold;
+}

@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+      .Internal-Div{
+        background-color:green;
+        text-align: left;
+        color:white;
+        height: 5px;
+        font-size: 22px;
+        flex: 1;
+        padding-bottom: 25px;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Methods for Adding CSS</title>
   </head>
   <body>
-    <div>Style me via the external method!</div>
-    <p>I would like to be styled with the internal method, please.</p>
-    <button>Inline Method</button>
+    <div class="External-Div">Style me via the external method!</div>
+    <p class="Internal-Div">I would like to be styled with the internal method, please.</p>
+    <button class="Inline-Button"style="background-color: gold; font-size: 22px; font-weight: bold; border-width: 1px">Inline Method</button>
   </body>
 </html>
